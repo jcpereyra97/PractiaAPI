@@ -1,0 +1,11 @@
+C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\Backend\obj\Debug\net5.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\Backend\obj\Debug\net5.0\Backend.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\Backend\obj\Debug\net5.0\Backend.AssemblyInfo.cs
+C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\Backend\obj\Debug\net5.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\Backend\bin\Debug\net5.0\Backend.deps.json
+C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\Backend\bin\Debug\net5.0\Backend.dll
+C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\Backend\bin\Debug\net5.0\ref\Backend.dll
+C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\Backend\bin\Debug\net5.0\Backend.pdb
+C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\Backend\obj\Debug\net5.0\Backend.dll
+C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\Backend\obj\Debug\net5.0\ref\Backend.dll
+C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\Backend\obj\Debug\net5.0\Backend.pdb

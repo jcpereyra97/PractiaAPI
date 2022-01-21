@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticaAPI", "PracticaAPI\PracticaAPI.csproj", "{845920DD-887F-4FFD-BB76-8B3F4D9E7EBC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VeterinariaBackend", "..\..\Practica\Veterinaria\VeterinariaApp\VeterinariaBackend\VeterinariaBackend.csproj", "{6D1A158D-83E2-4902-8C4F-7F9DE01C587D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{7CC7017F-1FB3-4A06-8FE1-133B6CB40FD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{845920DD-887F-4FFD-BB76-8B3F4D9E7EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{845920DD-887F-4FFD-BB76-8B3F4D9E7EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{845920DD-887F-4FFD-BB76-8B3F4D9E7EBC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6D1A158D-83E2-4902-8C4F-7F9DE01C587D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D1A158D-83E2-4902-8C4F-7F9DE01C587D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D1A158D-83E2-4902-8C4F-7F9DE01C587D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D1A158D-83E2-4902-8C4F-7F9DE01C587D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC7017F-1FB3-4A06-8FE1-133B6CB40FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC7017F-1FB3-4A06-8FE1-133B6CB40FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC7017F-1FB3-4A06-8FE1-133B6CB40FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC7017F-1FB3-4A06-8FE1-133B6CB40FD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

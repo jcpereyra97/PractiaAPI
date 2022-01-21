@@ -4,81 +4,14 @@
     "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\PracticaAPI\\PracticaAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\PracticaAPI\\PracticaAPI.csproj": {
+    "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\PracticaAPI\\PracticaAPI.csproj",
-        "projectName": "PracticaAPI",
-        "projectPath": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\PracticaAPI\\PracticaAPI.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\Backend\\Backend.csproj",
+        "projectName": "Backend",
+        "projectPath": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\PracticaAPI\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\usuario\\Desktop\\Practica\\Veterinaria\\VeterinariaApp\\VeterinariaBackend\\VeterinariaBackend.csproj": {
-                "projectPath": "C:\\Users\\usuario\\Desktop\\Practica\\Veterinaria\\VeterinariaApp\\VeterinariaBackend\\VeterinariaBackend.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\usuario\\Desktop\\Practica\\Veterinaria\\VeterinariaApp\\VeterinariaBackend\\VeterinariaBackend.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Practica\\Veterinaria\\VeterinariaApp\\VeterinariaBackend\\VeterinariaBackend.csproj",
-        "projectName": "VeterinariaBackend",
-        "projectPath": "C:\\Users\\usuario\\Desktop\\Practica\\Veterinaria\\VeterinariaApp\\VeterinariaBackend\\VeterinariaBackend.csproj",
-        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuario\\Desktop\\Practica\\Veterinaria\\VeterinariaApp\\VeterinariaBackend\\obj\\",
+        "outputPath": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -123,6 +56,73 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\PracticaAPI\\PracticaAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\PracticaAPI\\PracticaAPI.csproj",
+        "projectName": "PracticaAPI",
+        "projectPath": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\PracticaAPI\\PracticaAPI.csproj",
+        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\PracticaAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\Backend\\Backend.csproj": {
+                "projectPath": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\Backend\\Backend.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

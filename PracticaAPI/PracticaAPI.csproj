@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Practica\Veterinaria\VeterinariaApp\VeterinariaBackend\VeterinariaBackend.csproj" />
+    <ProjectReference Include="..\Backend\Backend.csproj" />
   </ItemGroup>
 
 </Project>

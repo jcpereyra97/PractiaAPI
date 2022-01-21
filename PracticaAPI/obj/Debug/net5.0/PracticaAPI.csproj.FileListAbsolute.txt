@@ -54,8 +54,6 @@ C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\PracticaAPI\bin\Debug\net5.0\run
 C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\PracticaAPI\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
 C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\PracticaAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\PracticaAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\PracticaAPI\bin\Debug\net5.0\VeterinariaBackend.dll
-C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\PracticaAPI\bin\Debug\net5.0\VeterinariaBackend.pdb
 C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\PracticaAPI\obj\Debug\net5.0\PracticaAPI.csproj.AssemblyReference.cache
 C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\PracticaAPI\obj\Debug\net5.0\PracticaAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\PracticaAPI\obj\Debug\net5.0\PracticaAPI.AssemblyInfoInputs.cache
@@ -72,3 +70,5 @@ C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\PracticaAPI\obj\Debug\net5.0\Pra
 C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\PracticaAPI\obj\Debug\net5.0\ref\PracticaAPI.dll
 C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\PracticaAPI\obj\Debug\net5.0\PracticaAPI.pdb
 C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\PracticaAPI\obj\Debug\net5.0\PracticaAPI.genruntimeconfig.cache
+C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\PracticaAPI\bin\Debug\net5.0\Backend.dll
+C:\Users\usuario\Desktop\PracticaAPI\PractiaAPI\PracticaAPI\bin\Debug\net5.0\Backend.pdb
