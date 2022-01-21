@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PracticaAPI\\PracticaAPI.csproj": {}
+    "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\PracticaAPI\\PracticaAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PracticaAPI\\PracticaAPI.csproj": {
+    "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\PracticaAPI\\PracticaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PracticaAPI\\PracticaAPI.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\PracticaAPI\\PracticaAPI.csproj",
         "projectName": "PracticaAPI",
-        "projectPath": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PracticaAPI\\PracticaAPI.csproj",
+        "projectPath": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\PracticaAPI\\PracticaAPI.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PracticaAPI\\obj\\",
+        "outputPath": "C:\\Users\\usuario\\Desktop\\PracticaAPI\\PractiaAPI\\PracticaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
