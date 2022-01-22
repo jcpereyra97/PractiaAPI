@@ -8,6 +8,7 @@ namespace VeterinariaBackend.Dominio
 {
     public class Atencion
     {
+        public int id { get; set; }
         public int CodAtencion { get; set; }
         public DateTime Fecha { get; set; }
         public string Descripcion { get; set; }

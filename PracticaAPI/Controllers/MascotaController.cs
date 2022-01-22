@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Backend.Acceso_a_Datos.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,30 +15,24 @@ namespace VeterinariaWebApi.Controllers
     [ApiController]
     public class MascotaController : ControllerBase
     {
+        private readonly IServiceMascota service;
 
-        private IGestorVeterinaria servicio;
-        public MascotaController()
+        public MascotaController(IServiceMascota service)
         {
-            servicio = new GestorVeterinaria();
+            this.service = service;
         }
-
-
-
-        // GET: api/<MascotaController>
-
-
 
         [HttpGet("GetIdMascota/{id}/{nombre}")]
         public ActionResult GetIdMascota(int id, string nombre)
         {
-
-            if (servicio.GetIdMascota(id, nombre) == 0)
+            var mascota = service.OptenerMascotaPorIdYNombre(id, nombre);
+            if(mascota!= null)
             {
-                return BadRequest("Problemas al consultar Mascota");
+                return Ok(mascota);
             }
             else
             {
-                return Ok(servicio.GetIdMascota(id, nombre));
+                return BadRequest("Mascota no encontrada");
             }
 
 
@@ -46,13 +41,15 @@ namespace VeterinariaWebApi.Controllers
         [HttpGet("ConsultarMascota/{id}")]
         public ActionResult GetMascota(int id)
         {
-            if (servicio.ObtenerMascotaCliente(id).Count < 0)
+          
+            var mascota = service.OptenerMascotaPorId(id);
+            if (mascota != null)
             {
-                return BadRequest("Problemas al consultar Cliente");
+                return Ok(mascota);
             }
             else
             {
-                return Ok(servicio.ObtenerMascotaCliente(id));
+                return BadRequest("Mascota no encontrada");
             }
 
         }
@@ -60,35 +57,36 @@ namespace VeterinariaWebApi.Controllers
         [HttpGet("ObtenerMascota/{id}")]
         public ActionResult ObtenerMascota(int id)
         {
-            if (servicio.ObtenerMascotaCliente(id).Count < 0)
+            var mascota = service.OptenerMascotaPorId(id);
+            if (mascota != null)
             {
-                return BadRequest("Problemas al consultar Cliente");
+                return Ok(mascota);
             }
             else
             {
-                return Ok(servicio.ObtenerMascotaCliente(id));
+                return BadRequest("Mascota no encontrada");
             }
-
         }
 
 
 
 
-        [HttpPost("AgregarMascota/{id}")]
-        public IActionResult PostMascota(Mascota oMascota, int id)
+        [HttpPost("AgregarMascota")]
+        public IActionResult PostMascota(Mascota oMascota)
         {
-            if (oMascota == null)
+            try
             {
+                service.AgregarMascota(oMascota);
+                return Ok();
+
+            }
+            catch (Exception)
+            {
+
                 return BadRequest();
             }
-            if (servicio.AgregarMascotaAtencion(oMascota, id))
-            {
-                return Ok("Ok");
-            }
-            else
-            {
-                return BadRequest("No se pudo grabar la Mascota");
-            }
+               
+           
         }
 
 
@@ -96,13 +94,16 @@ namespace VeterinariaWebApi.Controllers
         [HttpDelete("DeleteMascota/{id}")]
         public IActionResult DeleteMascota(int id)
         {
-            if (servicio.DeleteMascota(id) == false)
+            try
             {
-                return BadRequest("Problemas al eliminar Mascota");
+                var mascota = service.OptenerMascotaPorId(id);
+                service.BorrarMascota(mascota);
+                return Ok(mascota);
             }
-            else
+            catch (Exception)
             {
-                return Ok("Mascota Eliminada");
+
+                return BadRequest();
             }
         }
 
@@ -111,19 +112,17 @@ namespace VeterinariaWebApi.Controllers
         [HttpPut("UpdateMascota")]
         public IActionResult PutMascota(Mascota oMascota)
         {
-            if(oMascota == null)
+            try
             {
-                return BadRequest("Factura null");
+
+                service.ActualizarMascota(oMascota);
+                return Ok();
             }
-            if (servicio.UpdateMascota(oMascota))
+            catch (Exception e)
             {
-                return Ok("Mascota Actualizada Correctamente");
+
+                return BadRequest(e.Message);
             }
-            else
-            {
-                return BadRequest("No se pudo actualizar Mascota");
-            }
-                
         }
 
      

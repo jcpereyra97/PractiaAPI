@@ -16,7 +16,8 @@ namespace VeterinariaBackend.Dominio
     public class Mascota
     {
 
-            public int CodigoMascota { get; set; }
+        public int id { get; set; }
+        public int CodigoMascota { get; set; }
             public string Nombre { get; set; }
             public int Edad { get; set; }
             public int TipoMascota { get; set; }
