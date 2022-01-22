@@ -15,14 +15,12 @@ namespace VeterinariaWebApi.Controllers
     public class AtencionController : ControllerBase
     {
 
-        private IGestorVeterinaria servicio;
+        private readonly IGestorVeterinaria servicio;
 
-        public AtencionController()
+        public AtencionController(IGestorVeterinaria gestorVeterinaria)
         {
-            servicio = new GestorVeterinaria();
+            this.servicio = gestorVeterinaria;
         }
-
-
 
         [HttpGet("GetAtencion/{id}")]
         public ActionResult GetAtencion(int id)

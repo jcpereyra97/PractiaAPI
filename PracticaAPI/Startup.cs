@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using VeterinariaBackend.Negocio;
 
 namespace PracticaAPI
 {
@@ -32,6 +33,7 @@ namespace PracticaAPI
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PracticaAPI", Version = "v1" });
             });
+            services.AddTransient<IGestorVeterinaria, GestorVeterinaria>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
